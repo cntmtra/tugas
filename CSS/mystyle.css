@@ -11,8 +11,8 @@ body{
 
 }
 @media screen (min-width: 768px){
-    font-size: 2rem;
-    normal-font-size:0.93rem;
+    font-size: 5rem;
+    normal-font-size:0.99rem;
 }
 
 @media screen {
@@ -20,9 +20,9 @@ body{
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 80%;
-        height: 100%;
-        padding: 2rem;
+        width: 200%;
+        height: 150%;
+        padding: 3rem;
         background-color: var(--header-height);
         transition: 0.5s;
     }
