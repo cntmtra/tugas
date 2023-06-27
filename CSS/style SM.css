@@ -16,8 +16,8 @@
                 padding: 15px;
                 text-align: justify;
             }
-            @media screen (min-width: 280px){
-                font-size: 2rem;
+            @media screen (min-width: 95px){
+                font-size: 5rem;
                 normal-font-size:0.93rem;
             }
             
@@ -26,8 +26,8 @@
                     position: fixed;
                     top: var(--header-height);
                     right: -100%;
-                    width: 200%;
-                    height: 150%;
+                    width: 80%;
+                    height: 90%;
                     padding: 2rem;
                     background-color: var(--header-height);
                     transition: 0.5s;
