@@ -1,0 +1,94 @@
+@media screen {
+    body{
+        margin: 0;
+    }
+}
+
+body{
+    background: linear-gradient(lightpink 0%,rgb(156, 82, 93) 40%, rgb(83, 38, 45)100%);
+    margin: var(--header-height) 0 0 0;
+}
+
+@media screen (min-width: 768px){
+    font-size: 2rem;
+    normal-font-size:0.93rem;
+}
+
+@media screen {
+    .nav-item#menu{
+        position: fixed;
+        top: var(--header-height);
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        padding: 2rem;
+        background-color: var(--header-height);
+        transition: 0.5s;
+    }
+}
+.scroll-bar{
+    height: 50%;
+    width: 100px;
+    border: 1px solid gray;
+    overflow:auto;
+}
+.nav-link{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profil img{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.nav-item a{
+    padding: 15px;
+}
+
+.profil h2{
+    color: rgb(65, 28, 33);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.profil h5{
+    color: rgb(255, 255, 255);
+    transform: translateY(-10px);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.biodata{
+    background: linear-gradient(#ffffff 0%, rgba(255, 255, 255, 0.693) 40%, rgba(88, 85, 85, 0)100%);
+    padding-bottom: 200px;
+}
+
+.profil-kampus{
+    color: white;
+}
+
+.footer{
+    background-color: white;
+    padding-bottom: 85px;
+}
+
+.sosmed a{
+    color: black;
+    font-size: 20px;
+}
+
+.watermark{
+    padding-top: 20px;
+}
+
+.col{
+    margin-left: 150px;
+    margin-top: 55px;
+}

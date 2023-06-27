@@ -1,0 +1,81 @@
+*{
+    margin: auto;
+    padding: 1px;
+}
+
+    body{
+        background: linear-gradient(white 0%, rgba(128, 128, 128, 0.81) 40%, rgb(115, 112, 112) 100%);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+            header,
+            section#sosmed,
+            #sosmed-content, footer{
+                width: 600px;
+                margin: auto;
+                padding: 15px;
+                text-align: justify;
+            }
+            @media screen (min-width: 768px){
+                font-size: 2rem;
+                normal-font-size:0.93rem;
+            }
+            
+            @media screen {
+                .sosmed{
+                    position: fixed;
+                    top: var(--header-height);
+                    right: -100%;
+                    width: 80%;
+                    height: 100%;
+                    padding: 2rem;
+                    background-color: var(--header-height);
+                    transition: 0.5s;
+                }
+            }
+
+header h1{
+    float: left;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 300px;
+}
+
+                #sosmed-content img{
+                    width: 600px;
+                    float: left;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    margin-top: 1px;
+                    text-align: justify;
+                }
+
+                    
+#sosmed-content #deskripsi-sosmed {
+    width: 590px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+
+        #sosmed-content #deskripsi-sosmed p{
+            text-align: justify;
+            width: 590px;
+            float: left;
+            color: rgb(113, 52, 52);
+        }
+
+                .Fix-container{
+                    clear: both;
+                }
+
+.scroll-bar{
+    height: 50%;
+    width: 100px;
+    border: 1px solid gray;
+    overflow:auto;
+}
+                
+.footer{
+        padding-top: 150px;
+    }
