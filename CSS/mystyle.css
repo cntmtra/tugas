@@ -10,7 +10,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-@media screen (min-width: 768px){
+@media screen (min-width: 280px){
     font-size: 5rem;
     normal-font-size:0.99rem;
 }
