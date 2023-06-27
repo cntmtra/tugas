@@ -10,7 +10,7 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
-@media screen (min-width: 280px){
+@media screen (min-width: 95px){
     font-size: 5rem;
     normal-font-size:0.99rem;
 }
@@ -20,8 +20,8 @@ body{
         position: fixed;
         top: var(--header-height);
         right: -100%;
-        width: 200%;
-        height: 150%;
+        width: 80%;
+        height: 90%;
         padding: 3rem;
         background-color: var(--header-height);
         transition: 0.5s;
